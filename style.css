@@ -1,0 +1,44 @@
+body{
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    margin: 0;
+
+}
+#containers{
+    border : 3px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    width : 430px;
+    background-color: rgb(235, 131, 11);
+    text-shadow: 2px;
+    text-decoration: solid;
+}
+table{
+    border : 3px solid black;
+    background-color: rgb(235, 131, 11);
+    border-spacing: 0px;
+    margin: auto;
+}
+th{
+    border : 1px solid black;
+    background-color: rgb(10, 238, 147);
+}
+td{
+    border : 1px solid black;
+    background-color: darkorchid;
+    padding: 2px;
+}
+#insert{
+    border-color: black;
+    margin-top: 10px;
+    margin-left: 190px;
+    background-color: green;
+}
+#sort{
+    border-color: black;
+    margin: 10px 40px;
+    background-color: rgb(7, 219, 141);
+}
